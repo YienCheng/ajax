@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zhCN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello Word</h1>
+    <form action="/deleteRepo" method="post" enctype="multipart/form-data">
+      <p>
+        token: <input type="password" name="token" placeholder="请输入token" />
+      </p>
+      <p><input type="file" name="file" /></p>
+      <p>
+        <button type="submit">提交</button>
+      </p>
+    </form>
+    <script src="./request.js"></script>
+    <script>
+      // ajaxRequest();
+      // fetchRequest();
+    </script>
+  </body>
+</html>
